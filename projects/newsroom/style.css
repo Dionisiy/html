@@ -1,0 +1,132 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #161718;
+  color: #fff;
+}
+.container {
+    max-width: 1170px;
+}
+
+.header{
+  padding: 40px 0;
+  background: #000;
+}
+.header input{
+  border: none;
+  border-bottom: 1px solid blue;
+  background: transparent; 
+  width: 200px;
+  padding:0 5px;
+}
+.header button{
+  border: none;
+  border-bottom: 1px solid blue;
+  background: transparent;
+  padding:0 15px;
+}
+
+
+.menu { background: #152230;
+ }
+.menu ul{
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+}
+.menu ul li{
+  float: left;
+  padding: 0 20px;
+  margin: 0;
+}
+.menu .nav li{
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0 20px;
+  text-align: center;
+}
+.menu ul.nav li a {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.menu ul.nav li:hover, .menu ul.nav li.active {
+    background: #1a77ff;
+}
+.menu ul.nav li a:hover, .menu ul.nav li a.active, .menu ul.nav li a.focus, .menu ul.nav li a:active, .menu ul.nav li a:link{
+  background: transparent;
+}
+.main{
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg) no-repeat center center;
+  background-size: cover;
+  height: 500px;
+  padding: 50px 0;
+}
+.main .container .col-md-5 h1 {
+    color: #fff;
+    font-size: 50px;
+    margin: 20px 0;
+        border-bottom: 5px solid #1a77ff;
+  }
+  .main .container .col-md-5{
+    font-size: 20px;
+  }
+  .supporting{
+    background: #f2f2f2;
+  }
+  .supporting .row {
+    margin: 50px 0;
+}
+.supporting .row .col-md-8 {
+    background: #fff;
+    padding: 20px 40px 40px 40px;
+}
+.supporting .row .col-md-4 {
+  background: #152230;
+  padding: 20px 25px 40px 25px;
+}
+.supporting h3{
+  color: #000;
+}
+   .supporting ul {
+    list-style: none;
+   }
+  .supporting ul li p{
+    color: #ddd;
+    font-size: 14px;
+  }
+  .supporting .col-md-8 ul li h4 span{
+      border-bottom: 3px solid #1a77ff;
+      color: #000;
+  }
+    .supporting .col-md-4 h3{
+      color: #fff;
+    }
+  .supporting .col-md-4 ul li h4 span{
+      border-bottom: 3px solid #1a77ff;
+    
+  }
+  .supporting .container .col-md-12{
+    padding: 0;
+  }
+  
+  .footer{
+  padding: 50px 0 30px;
+  background: #000;
+}
+.footer ul{
+  list-style: none;
+  float: left;
+  padding: 0;
+}
+.footer ul li{
+  float: left;
+}
+.footer ul li a{
+  margin-right: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
