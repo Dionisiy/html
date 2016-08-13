@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Search text for youe name</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var text = "Lorem ipsum dolor sit amet, te odio decore graeco usu, quo fabulas Denys senserit consectetuer eu, ei duo velit percipitur. At cum purto quodsi complectitur. Aperiam maiestatis eloquentiam eam ea. Mel enim dicam at.At feugiat nostrum Denys adipiscing mel, te unum soluta vix. Ea malis dicam quando qui, an vix alterum \
+		voluptatibus, cum an brute laudem nostro. Scaevola accusata Denys ad pro, est ad malis labore appareat, vis ponderum definiebas mediocritatem te. Pro ea duis facete.";
+		var myName = "Denys";
+		var hits = [];
+		for (i=0; i<text.length; i++){
+    if(text[i]==="D"){
+        for(j=i; j<(myName.length+i); j++){
+            hits.push(text[j]);
+            }
+        }
+    }
+    if(hits.length ===0){
+        console.log("Your name wasn't found!");
+    }else{
+        console.log(hits);
+        }
+	</script>
+</body>
+</html>

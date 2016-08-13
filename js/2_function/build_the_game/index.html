@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+</head>
+<body>
+
+
+
+
+<script type="text/javascript">
+var sales ="Toyota";
+ function carTypes(name){
+ 	if (name =="Honda"){
+ 		return name;
+ 	}else{
+ 		return "Sorry, we don't sell" + name +".";
+ 	}
+ }
+ var car ={myCar:"Saturn", getCar: carTypes("Honda"),special: sales};
+ console.log(car.myCar);
+ console.log(car.getCar);
+ console.log(car.special);
+
+function factorial(n){
+	if ((n===0)||(n===1)){
+		return 1;
+	}
+	else{
+		return (n * factorial(n-1));
+	}
+}
+console.log(factorial(5));
+</script>
+</body>
+</html>
